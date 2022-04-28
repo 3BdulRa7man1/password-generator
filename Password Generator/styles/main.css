@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+*, body, html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-image: background-color #861657;
+  background-image: linear-gradient(326deg, #861657 0%, #f1887e 74%);
+  height: 50vh;
+  position: relative;
+  background-position-x: 0;
+  background-position-y: 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #fffafa;
+  margin: 5em 100px;
+  border-radius: 30px;
+}
+
+.main .how-to-use {
+  width: 400px;
+  max-width: 420px;
+}
+
+.main .how-to-use h1, .main .how-to-use p {
+  font-size: 3rem;
+  font-family: 'Roboto',sans-serif;
+  margin: 3rem 1rem;
+}
+
+.main .how-to-use p {
+  font-size: 1em;
+  font-weight: 100;
+  margin-top: 30pt;
+}
+
+.main .generator {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5em;
+  padding: 10px;
+  height: 450px;
+  max-height: 500px;
+  width: 300px;
+  max-width: 450px;
+  border-radius: 30px;
+}
+
+.main .generator label, .main .generator label span {
+  font-size: 12pt;
+  font-family: 'Roboto',sans-serif;
+}
+
+.main .generator h1 {
+  font-size: 3rem;
+  font-family: 'Roboto',sans-serif;
+  margin: 3rem 1rem;
+}
+
+.main .generator input {
+  width: 150px;
+  max-width: 160px;
+  height: 25px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.main .generator button {
+  width: 150px;
+  max-width: 359px;
+  margin-top: 10px;
+  height: 40px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 7px;
+  border: none;
+  background-color: #4d79ff;
+}
+
+@media (min-width: 320px) {
+  .main {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 80%;
+    margin: 5em auto;
+  }
+}
+/*# sourceMappingURL=main.css.map */
